@@ -4,7 +4,8 @@ Classification of the news articles using classical techniques as well as fine-t
 ## Classical Techniques
 Count vectorization, TF-IDF, Non-negative matrix factorization (NMF), latent Dirichlet allocation (LDA), and GloVe were used as the classical approaches to model different articles for classification.
 ## SOTA Transformers
-Here, we used [DistilBert](https://huggingface.co/docs/transformers/en/model_doc/distilbert), [RoBERTa](https://huggingface.co/docs/transformers/en/model_doc/roberta), and [XLNet](https://huggingface.co/docs/transformers/en/model_doc/xlnet) as the transformer architectures being fine-tuned. 
+Here, we used [DistilBert](https://huggingface.co/docs/transformers/en/model_doc/distilbert), [RoBERTa](https://huggingface.co/docs/transformers/en/model_doc/roberta), and [XLNet](https://huggingface.co/docs/transformers/en/model_doc/xlnet) as the transformer architectures being fine-tuned on the MIND dataset for the task of 
+article classification. 
 
 
 ## Get Started
