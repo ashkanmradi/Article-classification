@@ -30,7 +30,7 @@ LABEL_COL = "category"
 TEXT_COL = "text"
 
 
-DATA_PATH = '/home/ashkan2/scratch/ashkan2/Data/NLP_dataset'
+DATA_PATH = '{YOUR_DATASET_FOLDER_PATH}'
 df_train, df_test = utils.Load_Data(DATA_PATH)
 
 print(f'train shape: {df_train.shape}')
